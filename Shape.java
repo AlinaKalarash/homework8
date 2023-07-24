@@ -2,10 +2,10 @@ package GraphicEditor;
 
 import java.util.Locale;
 
-public class Shape {
+abstract public class Shape {
 
 
-    public void printInfo(String name) {
+    public static void printInfo(String name) {
         System.out.println("The name of shape is: " + name);
         switch (name.toLowerCase(Locale.ROOT)) {
             case "quad":
