@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter name of shape: ");
         Shape.printInfo(scanner.nextLine());
-        
+    
         scanner.close();
     }
 }
